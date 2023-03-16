@@ -1,6 +1,11 @@
 from selenium import webdriver
 
-browser = webdriver.Firefox()  # start selenium webdriver to popup a real Firefox browser window
-browser.get('http://localhost:8000') #
+from selenium.webdriver.firefox.options import Options
 
-assert 'Django' in browser.title # check that the page has word "Django" in its title
+options = Options()
+options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
+browser = webdriver.Firefox(options=options)
+
+browser.get('http://localhost:8000')
+
+assert 'Django' in browser.title
