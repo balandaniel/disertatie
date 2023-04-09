@@ -91,7 +91,7 @@ class NewVisitorTest(unittest.TestCase):
 
         # The page updates again, and now shows both items on his list
         self.check_for_row_in_list_table('1: Learn about how TDD works')
-        self.check_for_row_in_list_table('2: Use TDD knowledge to write masters degree thessis')
+        self.check_for_row_in_list_table('2: Use TDD knowledge to write masters degree thesis')
 
         # Daniel wonders whether the site will remember his list. Then he sees
         # that the site has generated n unique URL for his -- there is some
