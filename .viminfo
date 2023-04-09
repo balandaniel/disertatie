@@ -14,10 +14,12 @@
 ~Msle0~/\<modified\>
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1681063224,,"q!"
+:q
+|2,0,1681063217,,"q"
 :wq
 |2,0,1679947518,,"wq"
-:q
-|2,0,1679947489,,"q"
 :s
 |2,0,1679947488,,"s"
 :qs
@@ -38,31 +40,50 @@
 # Registers:
 "1	LINE	0
 	
-|3,0,1,1,1,0,1679344761,""
+|3,0,1,1,1,0,1681063164,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1679344547,""
+|3,0,2,1,1,0,1679344761,""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1679344547,""
 ""-	CHAR	0
-	T
-|3,1,36,0,1,0,1679947502,"T"
+	m
+|3,1,36,0,1,0,1681063193,"m"
 
 # File marks:
-'0  1  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
-|4,48,1,0,1679947518,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
-'1  12  0  ~/.git/COMMIT_EDITMSG
-|4,49,12,0,1679344777,"~/.git/COMMIT_EDITMSG"
-'2  23  7  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
-|4,50,23,7,1679344666,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
-'3  23  7  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
-|4,51,23,7,1679344666,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+'0  12  0  ~/.git/COMMIT_EDITMSG
+|4,48,12,0,1681063224,"~/.git/COMMIT_EDITMSG"
+'1  1  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,49,1,0,1679947518,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+'2  17  0  ~/.git/COMMIT_EDITMSG
+|4,50,17,0,1679344777,"~/.git/COMMIT_EDITMSG"
+'3  12  0  ~/.git/COMMIT_EDITMSG
+|4,51,12,0,1679344777,"~/.git/COMMIT_EDITMSG"
+'4  23  7  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,52,23,7,1679344666,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+'5  23  7  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,53,23,7,1679344666,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
+-'  12  0  ~/.git/COMMIT_EDITMSG
+|4,39,12,0,1681063224,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1681063130,"~/.git/COMMIT_EDITMSG"
+-'  1  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,39,1,0,1679947518,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
 -'  1  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
 |4,39,1,0,1679947518,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
 -'  7  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
 |4,39,7,0,1679947259,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+-'  7  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,39,7,0,1679947259,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
 -'  12  39  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
 |4,39,12,39,1679947237,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+-'  12  39  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,39,12,39,1679947237,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+-'  17  0  ~/.git/COMMIT_EDITMSG
+|4,39,17,0,1679344777,"~/.git/COMMIT_EDITMSG"
 -'  12  0  ~/.git/COMMIT_EDITMSG
 |4,39,12,0,1679344777,"~/.git/COMMIT_EDITMSG"
 -'  12  0  ~/.git/COMMIT_EDITMSG
@@ -77,12 +98,34 @@
 |4,39,23,7,1679344666,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
 -'  23  7  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
 |4,39,23,7,1679344666,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+-'  23  7  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,39,23,7,1679344666,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+-'  23  7  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,39,23,7,1679344666,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+-'  23  7  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,39,23,7,1679344666,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+-'  1  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,39,1,0,1679344525,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
+-'  1  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
+|4,39,1,0,1679344525,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
 -'  1  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
 |4,39,1,0,1679344525,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
 -'  1  0  /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
 |4,39,1,0,1679344525,"/c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1681063222	0
+	"	12	0
+	^	6	0
+	.	5	0
+	+	1	13
+	+	15	0
+	+	16	0
+	+	17	0
+	+	1	23
+	+	5	0
 
 > /c/Users/Daniel/Desktop/Disertatie/Scripts/.git/COMMIT_EDITMSG
 	*	1679947503	0
@@ -106,13 +149,3 @@
 	+	1	0
 	+	7	0
 	+	1	0
-
-> ~/.git/COMMIT_EDITMSG
-	*	1679344774	0
-	"	12	0
-	^	12	0
-	.	12	0
-	+	1	13
-	+	10	0
-	+	11	0
-	+	12	0

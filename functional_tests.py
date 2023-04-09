@@ -74,24 +74,38 @@ class NewVisitorTest(unittest.TestCase):
         # When he hits enter, the page updates, and now the page lists
         # "1. Buy peacock feathers" as an item in a to-do list
         inputbox.send_keys(Keys.ENTER)
-        time.sleep(1)
+        time.sleep(2)
 
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
-        self.assertTrue(
-            any(row.text == '1. Learn about how TDD works' for row in rows),
-            "New to-do item did not appear in table"
-        )
+
+        #self.assertTrue(
+            #any(row.text == '1: Learn about how TDD works' for row in rows),
+            #f"New to-do item did not appear in table. Contents were:\n{table.text}"
+        #)
+
+        self.assertIn('1: Learn about how TDD works', [row.text for row in rows])
 
         # There is still a text box inviting her to add another item. He enters
         # "Use peacock feathers to make a fly"
-        self.fail('Finish the test!')
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox.send_keys('Use TDD knowledge to write masters degree thesis')
+        inputbox.send_keys(Keys.ENTER)
+        time.sleep(2)
 
         # The page updates again, and now shows both items on his list
+        table = self.browser.find_element_by_id('id_list_table')
+        rows = table.find_elements_by_tag_name('tr')
+        self.assertIn('1: Learn about how TDD works', [row.text for row in rows])
+        self.assertIn(
+            '2: Use TDD knowledge to write masters degree thesis',
+            [row.text for row in rows]
+        )
 
         # Daniel wonders whether the site will remember his list. Then he sees
         # that the site has generated n unique URL for his -- there is some
         # explanatory text to that effect
+        self.fail('Finish the test!')
 
         # He visits that URL - his to-do list is still there
 
